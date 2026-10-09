@@ -1,3 +1,61 @@
+- title: Trustworthy Human-AI Collaboration in a Live Type-Theoretic Computational
+    Commons
+  url: https://www.youtube.com/watch/fB_lklm7xgU?version=3
+  thumbnail: https://i3.ytimg.com/vi/fB_lklm7xgU/hqdefault.jpg
+  description: "Rooted in Cyrus Omar's group's work on the Hazel live programming
+    environment, this talk presents a vision for a \"live type-theoretic computational
+    commons\": a shared monorepo where humans and swarms of AI agents make verifiable
+    progress on parallel coding tasks. The collaboration model combines novel editing
+    primitives (e.g. CRDT-based structure editing and Unison-style versioning) with
+    familiar type-theoretic structure (e.g. OCaml-style modules and interfaces, Isabelle-style
+    proofs).\n\nTwo research problems take center stage. First, large-scale collaboration
+    requires that incomplete programs remain continuously analyzable and executable
+    \u2014 Cyrus will present recent foundational work on live, incremental type checking
+    and evaluation of programs with typed holes. Second, as agent swarms grow in size
+    and ambition, giving them direct terminal access to our machines and data becomes
+    more risky. He will present a type-theoretic object-capability architecture that
+    provably bounds agent behavior, with per-task capability signatures shaped by
+    humans and weak AI supervisors to enforce the principle of least authority.\n\n00:00:00
+    \u2013 Feedback loops, from pianos to compilers\n00:03:29 \u2013 The gap problem
+    in dev tools\n00:05:07 \u2013 A live demo of Hazel: writing quicksort\n00:06:19
+    \u2013 Holes, error recovery, and live probes\n00:10:14 \u2013 \"Oops, all threes\":
+    debugging with real data\n00:12:42 \u2013 Demo questions: purity, holes, and call
+    frames\n00:25:56 \u2013 Graphical notation: tables, dials, and music\n00:29:26
+    \u2013 Agentic harnesses and swarms of agents\n00:33:33 \u2013 Incrementality:
+    re-execution and type checking\n00:36:56 \u2013 Live incremental IDEs for AI agents\n00:41:19
+    \u2013 Collaborative editing for thousands of agents: Grove and Unison\n00:44:32
+    \u2013 \"Dangerously skip permissions\" and object capabilities\n00:47:02 \u2013
+    A live computational commons, from Wikipedia to climate models\n00:50:24 \u2013
+    Audience Q&A"
+  published: 2026-09-11T13:32:24+00:00
+  author_name: Jane Street
+  author_uri: https://www.youtube.com/channel/UCDsVC_ewpcEW_AQcO-H-RDQ
+  source_link: https://www.youtube.com/feeds/videos.xml?playlist_id=PLCiAikFFaMJoWyXnJ2BWpse5HuiYibNYs
+  source_title: Jane Street - Tech Talks
+- title: Presenting styled-ppx 1.0 with CSS static extraction for OCaml
+  url: https://www.youtube.com/watch/DohRI4IV__k?version=3
+  thumbnail: https://i1.ytimg.com/vi/DohRI4IV__k/hqdefault.jpg
+  description: 'styled-ppx is a ppx and a library that brings styled components to
+    Melange and OCaml/Reason with type-safe CSS and static extraction.
+
+
+    Previously styled-ppx relied on emotion.sh, and from now on, it does not.
+
+
+    styled-ppx documentation: https://styled-ppx.vercel.app
+
+    github repo: https://github.com/davesnx/styled-ppx
+
+
+    Remote conf talk releasing styled-ppx (6 years ago!): https://www.youtube.com/watch?v=ekHCBZiCviM
+
+
+    GambiConf: How to mimic a JavaScript feature and over-engineering CSS https://www.youtube.com/watch?v=uc5K7Yx0GvQ'
+  published: 2026-07-15T17:04:51+00:00
+  author_name: David Sancho
+  author_uri: https://www.youtube.com/channel/UCvVVfCa7-nzSuCdMKXnNJNQ
+  source_link: https://www.youtube.com/feeds/videos.xml?channel_id=UCvVVfCa7-nzSuCdMKXnNJNQ
+  source_title: Emelle TV
 - title: A Vision for OCaml in the AI Era - Thibaut Mattio - FUN OCaml 2025
   url: https://www.youtube.com/watch/BAvXqd0QeVM?version=3
   thumbnail: https://i3.ytimg.com/vi/BAvXqd0QeVM/hqdefault.jpg
@@ -3019,6 +3077,23 @@
   author_uri: https://www.youtube.com/channel/UCvVVfCa7-nzSuCdMKXnNJNQ
   source_link: https://www.youtube.com/feeds/videos.xml?channel_id=UCvVVfCa7-nzSuCdMKXnNJNQ
   source_title: Emelle TV
+- title: The Future of Programming with Richard Eisenberg
+  url: https://www.youtube.com/watch/K6_fvDxookQ?version=3
+  thumbnail: https://i4.ytimg.com/vi/K6_fvDxookQ/hqdefault.jpg
+  description: "Richard Eisenberg is one of the core maintainers of Haskell. He recently
+    joined Jane Street\u2019s Tools and Compilers team, where he hacks on the OCaml
+    compiler. He and Ron discuss the powerful language feature that got him into PL
+    design in the first place\u2014dependent types\u2014and its role in a world where
+    AIs can (somewhat) competently write your code for you. They also discuss the
+    differences between Haskell and OCaml; the perils of trying to make a language
+    that works for everybody; and how best a company like Jane Street can collaborate
+    with the open source community.\n\nYou can find the transcript for this episode
+    and all past episodes at signalsandthreads.com."
+  published: 2023-05-18T15:34:11+00:00
+  author_name: Jane Street
+  author_uri: https://www.youtube.com/channel/UCDsVC_ewpcEW_AQcO-H-RDQ
+  source_link: https://www.youtube.com/feeds/videos.xml?playlist_id=PLCiAikFFaMJouorRXDSfS2UoKV4BfKyQm
+  source_title: Jane Street - Signal & Threads
 - title: 'emelletv #18 with KC about OCaml, Multicore and runtimes'
   url: https://www.youtube.com/watch/eSLdBuaVSFM
   thumbnail: https://i2.ytimg.com/vi/eSLdBuaVSFM/hqdefault.jpg
@@ -3041,7 +3116,7 @@
     Support the show at https://www.patreon.com/emelletv or don''t miss it live by
     following us https://www.twitch.tv/emelletv'
   published: 2023-03-30T18:23:30+00:00
-  author_name: emelletv
+  author_name: David Sancho
   author_uri: https://www.youtube.com/channel/UCvVVfCa7-nzSuCdMKXnNJNQ
   source_link: https://www.youtube.com/feeds/videos.xml?channel_id=UCvVVfCa7-nzSuCdMKXnNJNQ
   source_title: Emelle TV
@@ -3283,7 +3358,7 @@
 
     Watch live at https://www.twitch.tv/emelletv -- Watch live at https://www.twitch.tv/emelletv'
   published: 2022-03-31T13:15:46+00:00
-  author_name: emelletv
+  author_name: David Sancho
   author_uri: https://www.youtube.com/channel/UCvVVfCa7-nzSuCdMKXnNJNQ
   source_link: https://www.youtube.com/feeds/videos.xml?channel_id=UCvVVfCa7-nzSuCdMKXnNJNQ
   source_title: Emelle TV
